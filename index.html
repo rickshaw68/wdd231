@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 Course Home Page | Rick Shaw</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/rick.webp" alt="Rick Shaw" class="profile-pic">
+            <span class="name">Rick Shaw</span>
+        </div>
+        <button id="menu-button" aria-label="Toggle Navigation">☰</button>
+        <nav>
+            <ul id="nav-menu" class="hidden">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/rickshawcalgary/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home-section">
+            <h1>Home</h1>
+
+            <div class="home-content">
+                <div class="box course-work">
+                    <h2>Course Work</h2>
+                    <textarea id="course-text" placeholder="Enter class notes here..."></textarea>
+                </div>
+
+                <div class="box image-container">
+                    <h2>Alberta, Canada</h2>
+                    <img src="images/alberta.jpg" alt="Mountain Lake in Alberta">
+                </div>
+            </div>
+        </section>
+        <section id="certificate-section">
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="All">All</button>
+                <button class="filter-btn" data-filter="CSE">CSE</button>
+                <button class="filter-btn" data-filter="WDD">WDD</button>
+            </div>
+
+
+            <div id="courses">
+                <div class="course-item" data-category="CSE">CSE 110</div>
+                <div class="course-item" data-category="WDD">WDD 130</div>
+                <div class="course-item" data-category="CSE">CSE 111</div>
+                <div class="course-item" data-category="CSE">CSE 210</div>
+                <div class="course-item" data-category="WDD">WDD 131</div>
+                <div class="course-item" data-category="WDD">WDD 231</div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="current-year"></span> Rick Shaw 🌍 Calgary, Alberta, Canada</p>
+            <p>Last Update: <span id="last-updated"></span></p>
+        </footer>
+</body>
+
+</html>
