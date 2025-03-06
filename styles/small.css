@@ -189,7 +189,7 @@ nav ul li {
     gap: 20px;
 }
 
-.box {    
+.box {
     background: white;
     padding: 15px;
     border-radius: 10px;
@@ -286,6 +286,42 @@ h2 {
     color: black;
     border: 2px solid black;
 }
+
+.completed {
+    background-color: #006400;
+    color: white;
+    border: 2px solid #004d00;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.not-completed {
+    background-color: #8B0000;
+    color: white;
+    border: 2px solid #600000;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.completed:hover {
+    background-color: #023313;
+    border: 2px solid #011207;
+}
+
+.not-completed:hover {
+    background-color: #5a0404;
+    border: 2px solid #2f0101;
+}
+
+#total-credits {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #004466;
+}
+
 
 footer {
     background-color: var(--primary-color);
