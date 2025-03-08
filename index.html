@@ -4,9 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 Course Home Page | Rick Shaw</title>
+    <title>WDD 231 Course Home Page | Rick Shaw</title>
     <meta name="description" content="WDD 231 - Web Frontend Development - Rick Shaw | Class Page">
-    <meta name="author" content="Rick Shaw">
+    <meta name="author" content="Rick Shaw">    
+    <meta property="og:title" content="WDD 231 Course Home Page | Rick Shaw">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://https://rickshaw68.github.io/wdd231/images/calgary.webp">
+    <meta property="og:url" content="https://rickshaw68.github.io/wdd231/index.html">
+    
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -16,6 +21,7 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/course.js" defer></script>
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -35,18 +41,18 @@
         </nav>
     </header>
 
-    <main>        
+    <main>
         <section id="home-section">
             <h1>Home</h1>
-    
-            <div class="home-content">                
+
+            <div class="home-content">
                 <section id="course-work-section">
                     <h2>Course Work</h2>
                     <div class="box">
                         <textarea id="course-text" placeholder="Enter class notes here..."></textarea>
                     </div>
-                </section>    
-                
+                </section>
+
                 <section id="image-section">
                     <h2>Alberta, Canada</h2>
                     <div class="box image-container">
@@ -54,17 +60,17 @@
                     </div>
                 </section>
             </div>
-        </section>    
-        
+        </section>
+
         <section id="certificate-section">
             <h2>Web and Computer Programming Certificate</h2>
-    
+
             <div class="filter-container">
                 <button class="filter-btn active" data-filter="All">All</button>
                 <button class="filter-btn" data-filter="CSE">CSE</button>
                 <button class="filter-btn" data-filter="WDD">WDD</button>
             </div>
-    
+
             <div id="courses">
                 <div class="course-item" data-category="CSE">CSE 110</div>
                 <div class="course-item" data-category="WDD">WDD 130</div>
@@ -75,7 +81,6 @@
             </div>
         </section>
     </main>
-    
 
     <footer>
         <p>&copy; <span id="current-year"></span> Rick Shaw 🌍 Calgary, Alberta, Canada</p>
