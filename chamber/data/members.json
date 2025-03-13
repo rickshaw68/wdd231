@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Genius Tech Solutions",
+            "address": "123 Innovation Drive, Calgary, AB",
+            "phone": "403-123-4567",
+            "url": "https://https://geniustech.ca/",
+            "image": "images/geniustech.webp",
+            "level": "Gold",
+            "rating": "4.8"
+        },
+        {
+            "name": "Greenway Landscaping",
+            "address": "456 Garden Road, Calgary, AB",
+            "phone": "403-987-6543",
+            "url": "https://www.greenwaylandscaping.ca",
+            "image": "images/GW_Logo.jpg",
+            "level": "Silver",
+            "rating": "4.5"
+        },
+        {
+            "name": "Summit Accounting Services",
+            "address": "789 Financial Street, Calgary, AB",
+            "phone": "403-456-7890",
+            "url": "https://www.summitaccounting.ca",
+            "image": "images/summit.webp",
+            "level": "Gold",
+            "rating": "4.9"
+        },
+        {
+            "name": "Rocky Mountain",
+            "address": "321 Wellness Ave, Calgary, AB",
+            "phone": "403-222-3333",
+            "url": "https://www.calgaryclimbing.com/locations/rocky-mountain/",
+            "image": "images/ccc-logo.webp",
+            "level": "Member",
+            "rating": "4.7"
+        },
+        {
+            "name": "Stampede Auto",
+            "address": "987 Mechanics Road, Calgary, AB",
+            "phone": "403-789-1234",
+            "url": "https://www.stampedeautorepairs.ca",
+            "image": "images/sa-logo.webp",
+            "level": "Member",
+            "rating": "3.2"
+        },
+        {
+            "name": "Prairie Mill Bread Company",
+            "address": "4820 Northland Dr NW, Calgary, AB",
+            "phone": "403-222-6655",
+            "url": "https://www.prairiemillbread.com/",
+            "image": "images/pmb.webp",
+            "level": "Silver",
+            "rating": "4.6"
+        },
+        {
+            "name": "Bow River Law Firm",
+            "address": "741 Justice Drive, Calgary, AB",
+            "phone": "403-333-4444",
+            "url": "https://bowriveremploymentlaw.com/",
+            "image": "images/bow-river.webp",
+            "level": "Gold",
+            "rating": "5.0"
+        }
+    ]
+}

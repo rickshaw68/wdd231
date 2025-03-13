@@ -1,0 +1,35 @@
+[
+    {
+        "lastName": "Shaw",
+        "movedIn": "February 12, 2000",
+        "numberOfRecords": 6,
+        "visited": true,
+        "familyMembers": [
+            {
+                "name": "Rick",
+                "gender": "Male",
+                "birthdate": "June 27, 1968"
+            },
+            {
+                "name": "Tina",
+                "gender": "Female",
+                "birthdate": "November 12, 1969"
+            },
+            {
+                "name": "Jonathan",
+                "gender": "Male",
+                "birthdate": "June 21, 1992"
+            },
+            {
+                "name": "Alex",
+                "gender": "Male",
+                "birthdate": "April 30, 1995"
+            },
+            {
+                "name": "Paul",
+                "gender": "Male",
+                "birthdate": "March 19, 1998"
+            }
+        ]
+    }
+]
