@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${units}&appid=${apiKey}`;
     const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=${units}&appid=${apiKey}`;
 
-    // Fetch Weather & Forecast
+    // weather
     fetch(weatherURL)
         .then(response => response.json())
         .then(data => displayWeather(data))
@@ -25,20 +25,19 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => displayForecast(data))
         .catch(error => console.error("Error fetching weather forecast:", error));
 
-    // ✅ Check if we are on the directory page
     const isDirectoryPage = window.location.pathname.includes("directory.html");
 
     if (isDirectoryPage) {
-        // ✅ Fetch all members for directory page
+
         fetch("data/members.json")
             .then(response => response.json())
             .then(data => {
-                displayMembers(data.members, "grid");  // Show all members
-                setupGridListToggle(data.members); // Keep grid/list toggle working
+                displayMembers(data.members, "grid");
+                setupGridListToggle(data.members);
             })
             .catch(error => console.error("Error fetching members:", error));
     } else {
-        // ✅ Fetch only 3 members for the homepage spotlight
+
         fetch("data/members.json")
             .then(response => response.json())
             .then(data => {
@@ -194,19 +193,15 @@ function displaySpotlightBusinesses(members) {
         return;
     }
 
-    // ✅ Filter for only 'gold' and 'silver' members
-    const eligibleMembers = members.filter(member => 
+    const eligibleMembers = members.filter(member =>
         member.level.toLowerCase() === "gold" || member.level.toLowerCase() === "silver"
     );
 
-    // ✅ Randomly shuffle and pick 3 members
     const shuffled = [...eligibleMembers].sort(() => 0.5 - Math.random());
     const selectedBusinesses = shuffled.slice(0, 3);
 
-    // ✅ Clear previous content
     spotlightContainer.innerHTML = "<h2>Business Spotlights</h2>";
 
-    // ✅ Create and append spotlight cards
     selectedBusinesses.forEach(member => {
         let card = document.createElement("div");
         card.classList.add("spotlight-card");
@@ -228,17 +223,15 @@ function displaySpotlightBusinesses(members) {
         website.target = "_blank";
         website.rel = "noopener noreferrer";
 
-        // ✅ Append elements to the card
         card.appendChild(logo);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(website);
 
-        // ✅ Add card to spotlight section
         spotlightContainer.appendChild(card);
     });
 
-    console.log("✅ Spotlight businesses displayed:", selectedBusinesses);
+    console.log("Spotlight businesses displayed:", selectedBusinesses);
 }
 
 
