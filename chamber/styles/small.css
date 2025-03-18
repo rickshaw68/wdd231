@@ -71,7 +71,7 @@ ul.menuLinks li a {
     padding: .75rem 2vw;
     color: var(--text-color2);
     text-decoration: none;
-    font: 'roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 li.current-menu-item a {
