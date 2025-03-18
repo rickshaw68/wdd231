@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231 Chamber Directory | Rick Shaw</title>
-    <meta name="description" content="WDD 231 - Chamber Directory Page - Rick Shaw">
+    <title>Chamber of Commerce | Rick Shaw</title>
+    <meta name="description" content="WDD 231 - Chamber Home Page - Rick Shaw">
     <meta name="author" content="Rick Shaw">
-    <meta property="og:title" content="WDD 231 Chamber Directory Page | Rick Shaw">
+    <meta property="og:title" content="WDD 231 Chamber Home Page | Rick Shaw">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://rickshaw68.github.io/wdd231/chamber/images/calgary.webp">
     <meta property="og:url" content="https://rickshaw68.github.io/wdd231/chamber/directory.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preload" as="image" href="images/calgary.webp" type="image/webp">
+
     <link rel="preload" href="images/geniustech.webp" as="image">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,33 +35,46 @@
 
     <nav id="animateme">
         <ul class="menuLinks">
-            <li><a href="index.html">Home</a></li>
-            <li class="current-menu-item"><a href="#" aria-current="page">Directory</a></li>
+            <li class="current-menu-item"><a href="#" aria-current="page">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Discover</a></li>
         </ul>
     </nav>
 
     <main>
-        <h1>Directory</h1>
-        <p>Calgary Chamber of Commerce</p>
-        <section id="directory">
-            <div class="directory-content">
-
-                <div class="menu">
-                    <button id="grid" aria-label="Grid View">
-                        <span class="sr-only">Grid View</span>
-                    </button>
-                    <button id="list" aria-label="Switch to list view">
-                        <span class="sr-only">List View</span>
-                    </button>
-                </div>
-
-                <div id="cards" class="grid-view" aria-live="polite">
-                    <p class="loading-placeholder">Loading businesses...</p>
-                </div>
+        <div class="hero">
+            <img src="images/calgary.webp" alt="Image of Calgary - Hero Image" width="1200" height="600" loading="lazy">
+            <div class="hero-text">
+                <h2>Join the Calgary Chamber of Commerce</h2>
+                <p>Connect, grow, and support local businesses in Calgary</p>
+                <a href="join.html" class="cta-button">Join Now</a>
             </div>
-        </section>
+        </div>
+        <h1>HOME</h1>
+        <p>Calgary Chamber of Commerce</p>
+
+        <div class="info-boxes">
+            <div class="current-events">
+                <h2>Upcoming Events</h2>
+                <h3>Check out whats happening in Calgary this month!</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At fugiat quibusdam labore omnis quis
+                    reiciendis error, dolorum adipisci earum, dolor saepe hic eligendi doloribus velit nihil totam harum
+                    dolorem eveniet.</p>
+            </div>
+            <div class="weather">
+                <h2>Current Weather in Calgary</h2>
+                <p>Loading weather...</p>
+            </div>
+            <div class="forecast">
+                <h2>Weather Forecast</h2>
+                <p>Loading forecast...</p>
+            </div>
+        </div>
+
+        <div class="spotlight"></div>
+
+        <div id="cards"></div>
 
     </main>
 
@@ -78,7 +93,7 @@
                 <img src="images/twitter.webp" width="50" height="50" alt="Follow us on Twitter">
             </a>
             <a href="https://www.linkedin.com" target="_blank">
-                <img src="images/linkedin.webp" width="50" height="50" alt="Connect with us on LinkedIn">
+                <img src="images/linkedin.webp" width="53" height="50" alt="Connect with us on LinkedIn">
             </a>
         </div>
         <div class="author">

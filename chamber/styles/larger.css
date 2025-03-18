@@ -1,0 +1,162 @@
+@media only screen and (min-width: 650px) {
+    #hamburger-menu {
+        display: none;
+    }
+
+    ul.menuLinks,
+    ul.menuLinks.open {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menuLinks a:hover {
+        background-color: #925a5a;
+    }
+
+    nav {
+        grid-template-rows: 1fr;
+    }
+
+    .hero-text {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .hero-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1.3rem;
+    }
+
+    .info-boxes {
+        grid-template-columns: 2.5fr 1fr 1fr;
+        padding: 50px;
+        box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .current-events,
+    .weather,
+    .forecast {
+        padding: 25px;
+        min-height: 300px;
+    }
+
+    .current-events h2,
+    .weather h2,
+    .forecast h2 {
+        font-size: 1.8rem;
+        top: 20px;
+    }
+
+    .current-events h3 {
+        font-size: 1.3rem;
+        margin-top: 40px !important;
+    }
+
+    .weather,
+    .forecast,
+    .current-events {
+        max-width: 400px;
+        padding: 25px;
+    }
+
+    .weather img {
+        width: 100px;
+        height: auto;
+    }
+
+    .weather p,
+    .current-events p,
+    .forecast {
+        font-size: 1.5rem;
+    }
+
+    .weather strong {
+        font-size: 1.6rem;
+    }
+
+    .forecast {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        gap: 15px;
+        padding: 25px;
+    }
+
+    .forecast h2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .forecast-day {
+        flex: 1;
+        max-width: 200px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .forecast-day h3 {
+        font-size: 1.4rem;
+    }
+
+    .forecast-day p {
+        font-size: 1.2rem;
+    }
+
+    .forecast-day img {
+        width: 80px;
+    }
+
+    .spotlight {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer {
+        max-width: 1200px;
+        background-color: var(--primary-color);
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .chamber_footer,
+    .social-media,
+    .author {
+        flex: 1;
+        width: auto;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .chamber_footer {
+        text-align: left;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-media img {
+        width: auto;
+        height: 50px;
+    }
+
+    .author {
+        text-align: right;
+    }
+}
