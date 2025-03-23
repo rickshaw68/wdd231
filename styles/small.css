@@ -337,13 +337,23 @@ h2 {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
 
 #course-details {
@@ -354,7 +364,10 @@ h2 {
     padding: 0;
     background: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    animation: fadeIn 0.3s ease-in-out;
+}
+
+#course-details.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 #course-details::backdrop {
@@ -377,6 +390,7 @@ h2 {
     font-weight: bold;
     background: transparent;
     border: none;
+    outline: none;
 }
 
 .close-button:hover {

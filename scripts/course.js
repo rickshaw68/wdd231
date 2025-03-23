@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function showCourseModal(course) {
         const dialog = document.getElementById("course-details");
-    
+
         dialog.innerHTML = `
             <div class="modal-content">
                 <button class="close-button" aria-label="Close">&times;</button>
@@ -126,20 +126,26 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p><strong>Completed:</strong> ${course.completed ? "Yes! ✅" : "No ❌"}</p>
             </div>
         `;
-    
-        dialog.showModal();    
-        
+
+        dialog.classList.remove("fade-in");
+
+        dialog.showModal();
+
+        requestAnimationFrame(() => {
+            dialog.classList.add("fade-in");
+        });
+
         dialog.querySelector(".close-button").addEventListener("click", () => {
             dialog.close();
-        });    
-        
+        });
+
         dialog.addEventListener("click", (e) => {
             const rect = dialog.querySelector(".modal-content").getBoundingClientRect();
             const isOutside = e.clientX < rect.left || e.clientX > rect.right || e.clientY < rect.top || e.clientY > rect.bottom;
             if (isOutside) dialog.close();
         });
     }
-    
+
 
 
     displayCourses(courses);
