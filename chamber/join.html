@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce | Rick Shaw</title>
+    <meta name="description" content="WDD 231 - Chamber Join Page - Rick Shaw">
+    <meta name="author" content="Rick Shaw">
+    <meta property="og:title" content="WDD 231 Chamber Join Page | Rick Shaw">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://rickshaw68.github.io/wdd231/chamber/images/calgary.webp">
+    <meta property="og:url" content="https://rickshaw68.github.io/wdd231/chamber/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-larger.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/calgary_tower.webp" width="95" height="95" alt="Calgary Tower - Chamber of Commerce Logo">
+        <span>Calgary Chamber of Commerce</span>
+        <button id="hamburger-menu" aria-label="Open navigation menu" aria-expanded="false"></button>
+    </header>
+
+    <nav id="animateme">
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="current-menu-item"><a href="#" aria-current="page">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Join the Chamber</h1>
+        <div class="form-and-cards">
+            <form method="get" action="thankyou.html" aria-label="Join the Chamber Form" novalidate>
+                <label>
+                    First Name:
+                    <input type="text" name="firstname" title="Please enter your first name" autocomplete="given-name"
+                        required>
+                </label>
+
+                <label>
+                    Last Name:
+                    <input type="text" name="lastname" title="Please enter your last name" autocomplete="family-name"
+                        required>
+                </label>
+
+                <label>
+                    Organizational Title:
+                    <input type="text" id="orgTitle" name="orgTitle" required
+                        title="Enter your Organizational title (letters, spaces and hyphens only)"
+                        autocomplete="organization-title" placeholder="e.g., Project Manager"
+                        pattern="[a-Za-z\s\-]{7,}">
+                    <span id="orgTitleError" class="error-message" aria-live="polite"></span>
+                </label>
+
+                <label>
+                    Email Address:
+                    <input type="email" name="email" required title="Enter a valid email address" autocomplete="email"
+                        placeholder="you@example.com">
+                </label>
+
+                <label>
+                    Mobile Phone:
+                    <input type="tel" name="phone" required
+                        title="Enter your 10-digit phone number (e.g., (123) 456-7890)" autocomplete="tel"
+                        pattern="^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$">
+                </label>
+
+                <label>
+                    Business/Organization Name:
+                    <input type="text" name="organization" required title="Enter your business or organization name"
+                        autocomplete="organization">
+                </label>
+
+                <label>
+                    Membership Level:
+                    <select name="membership" required title="Select your membership level">
+                        <option value="" disabled selected>Select a level</option>
+                        <option value="member">Member</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                        <option value="np">Non-Profit (free)</option>
+                    </select>
+                </label>
+
+                <label>
+                    Business/Organization description:
+                    <textarea name="description" title="Brief description of your business or organization" rows="4"
+                        cols="40" placeholder="Tell us about your business..."></textarea>
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+
+                
+                <input type="submit" value="Join the Chamber">
+                
+
+            </form>
+
+
+            <div class="membership-cards">
+                <section class="membership-levels">
+                    <div class="membership-card" id="np-card">
+                        <h3>Non-Profit Membership</h3>
+                        <p>Perfect for registered non-profits. Get a free membership with community benefits.</p>
+                        <button type="button" class="info-button" data-modal="np-modal">More Info</button>
+                    </div>
+
+                    <div class="membership-card" id="basic-card">
+                        <h3>Basic Membership</h3>
+                        <p>Great for startups or solo entrepreneurs. Basic Chamber access.</p>
+                        <button type="button" class="info-button" data-modal="basic-modal">More Info</button>
+                    </div>
+
+                    <div class="membership-card" id="silver-card">
+                        <h3>Silver Membership</h3>
+                        <p>Access to training events and limited advertising opportunities.</p>
+                        <button type="button" class="info-button" data-modal="silver-modal">More Info</button>
+                    </div>
+
+                    <div class="membership-card" id="gold-card">
+                        <h3>Gold Membership</h3>
+                        <p>Premium benefits, full ad support, and spotlight on the homepage.</p>
+                        <button type="button" class="info-button" data-modal="gold-modal">More Info</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="chamber_footer">
+            <p>Ampersand East</p>
+            <p>112 4 Ave SW Suite 410</p>
+            <p>Calgary, AB T2P 0H3</p>
+            <p>(403) 750-0400</p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="images/youtube.webp" width="50" height="50" alt="Visit our YouTube channel">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="images/twitter.webp" width="50" height="50" alt="Follow us on Twitter">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="images/linkedin.webp" width="53" height="50" alt="Connect with us on LinkedIn">
+            </a>
+        </div>
+        <div class="author">
+            <p>WDD231 Class Project</p>
+            <p>Rick Shaw</p>
+            <p>&copy; <span id="current-year" aria-live="polite"></span> Calgary Chamber of Commerce</p>
+            <p>Last Update: <span id="last-updated" aria-live="polite"></span></p>
+        </div>
+    </footer>
+
+    <!-- Adding Membership Modals -->
+    <div class="modal" id="np-modal">
+        <div class="modal-content">
+            <span class="close-button" data-close="np-modal">&times;</span>
+            <h2>Non-Profit Membership</h2>
+            <p>Perfect for registered charities and nonprofits. Includes:</p>
+            <ul>
+                <li>Free listing in our directory</li>
+                <li>Invites to our community events</li>
+                <li>Networking opportunities</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="basic-modal">
+        <div class="modal-content">
+            <span class="close-button" data-close="basic-modal">&times;</span>
+            <h2>Basic Membership</h2>
+            <p>Ideal for startups and individuals. Includes:</p>
+            <ul>
+                <li>Basic directory listing</li>
+                <li>1 event per month</li>
+                <li>Email newsletter feature</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="silver-modal">
+        <div class="modal-content">
+            <span class="close-button" data-close="silver-modal">&times;</span>
+            <h2>Silver Membership</h2>
+            <p>For growing businesses. Includes:</p>
+            <ul>
+                <li>Highlighted directory listing</li>
+                <li>3 events per month</li>
+                <li>Social media promotion</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="gold-modal">
+        <div class="modal-content">
+            <span class="close-button" data-close="gold-modal">&times;</span>
+            <h2>Gold Membership</h2>
+            <p>For established businesses wanting full exposure. Includes:</p>
+            <ul>
+                <li>Spotlight position on homepage</li>
+                <li>Unlimited event participation</li>
+                <li>Priority advertising placement</li>
+                <li>Monthly strategy meetings</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

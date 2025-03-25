@@ -1,0 +1,33 @@
+@media only screen and (min-width: 650px) {
+
+    .form-and-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        padding: 20px;
+        border: 2px dashed rgb(101, 2, 2);
+        border-radius: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    form {
+        flex: 1.2;
+    }
+
+    .membership-cards {
+        flex: 1;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    .membership-levels {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
