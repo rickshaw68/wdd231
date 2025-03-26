@@ -7,6 +7,10 @@ hamburgerElement.addEventListener('click', () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+
+    document.querySelector("#current-year").textContent = new Date().getFullYear();
+    document.querySelector("#last-updated").textContent = document.lastModified;
+
     const apiKey = "bd29c3a8dd8bc968d44b939380716672";
     const city = "Calgary";
     const units = "metric";
