@@ -35,6 +35,11 @@
     transition: transform 0.3s ease;
 }
 
+.membership-card h2,
+.membership-card h3 {
+    padding: 1rem;
+}
+
 .membership-card:hover {
     transform: scale(1.02);
 }
@@ -92,8 +97,8 @@
 }
 
 .modal-content h2,
-p {
-    font: 'roboto';
+.modal-content p {
+    font-family: 'roboto', sans-serif;
     padding: 1rem;
 }
 
@@ -145,7 +150,7 @@ input[type="submit"] {
     }
 
     to {
-        transform: transslateY(0);
+        transform: translateY(0);
         opacity: 1;
     }
 }
@@ -220,14 +225,6 @@ form textarea {
     }
 }
 
-
-.chamber_footer p,
-.author p {
-    margin: 0;
-    padding: 0;
-    line-height: 1.3;
-}
-
 .confirmation {
     max-width: 600px;
     margin: 2rem auto;
@@ -235,7 +232,7 @@ form textarea {
     background-color: #f0f8ff;
     border: 2px solid var(--accent1-color);
     border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba( 0,0,0,0.1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
     color: var(--primary-color);
 }
 
@@ -274,7 +271,7 @@ form textarea {
 
 #submission-details li {
     margin: 0.5rem 0;
-    font-size: 1rem;    
+    font-size: 1rem;
 }
 
 .return-home {
