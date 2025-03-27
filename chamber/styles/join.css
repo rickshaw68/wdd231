@@ -164,7 +164,18 @@ form {
     border-radius: 10px;
     max-width: 600px;
     margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
 }
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
 
 form label {
     display: flex;

@@ -45,7 +45,7 @@
     <main>
         <h1>Join the Chamber</h1>
         <div class="form-and-cards">
-            <form method="get" action="thankyou.html" aria-label="Join the Chamber Form" novalidate>
+            <form method="get" action="thankyou.html" aria-label="Join the Chamber Form">
                 <label>
                     First Name:
                     <input type="text" name="firstname" title="Please enter your first name" autocomplete="given-name"
@@ -63,7 +63,8 @@
                     <input type="text" id="orgTitle" name="orgTitle" required
                         title="Enter your Organizational title (letters, spaces and hyphens only)"
                         autocomplete="organization-title" placeholder="e.g., Project Manager"
-                        pattern="[a-Za-z\s\-]{7,}">
+                        pattern="[A-Za-z\s\-]{7,}">
+
                     <span id="orgTitleError" class="error-message" aria-live="polite"></span>
                 </label>
 
@@ -105,9 +106,9 @@
 
                 <input type="hidden" name="timestamp" id="timestamp">
 
-                
+
                 <input type="submit" value="Join the Chamber">
-                
+
 
             </form>
 
