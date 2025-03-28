@@ -490,6 +490,16 @@ nav.open {
     padding: 20px;
 }
 
+#cards.grid-view {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 
 /* Footer Section */
 
