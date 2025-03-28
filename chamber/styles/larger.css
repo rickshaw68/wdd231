@@ -3,6 +3,10 @@
         display: none;
     }
 
+    header span {
+        font-size: 2rem;
+    }
+
     ul.menuLinks,
     ul.menuLinks.open {
         display: flex;

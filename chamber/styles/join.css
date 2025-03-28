@@ -14,6 +14,10 @@
     /*--nav-hover-background-color: transparent;*/
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* Join Chamber Styling Section */
 
 .membership-levels {
