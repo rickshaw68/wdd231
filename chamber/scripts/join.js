@@ -49,7 +49,19 @@ document.addEventListener("DOMContentLoaded", () => {
             errorSpan.textContent = "";
         }
     });
+
+    const form = document.getElementById("joinForm");
+    form.addEventListener("submit", function (e) {
+        form.classList.add("submitted");
+
+        if (!form.checkValidity()) {
+            e.preventDefault();
+        }
+    });
 });
+
+
+
 
 
 

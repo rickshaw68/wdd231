@@ -311,3 +311,16 @@ form textarea {
     margin-top: 5px;
     display: block;
 }
+
+form.submitted input:invalid,
+form.submitted select:invalid,
+form.submitted textarea:invalid {
+    border: 2px solid red;
+    outline: none;
+}
+
+input,
+select,
+textarea {
+    transition: border-color 0.3s ease-in-out;
+}
