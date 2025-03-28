@@ -315,9 +315,17 @@ form textarea {
 form.submitted input:invalid,
 form.submitted select:invalid,
 form.submitted textarea:invalid {
-    border: 2px solid red;
-    outline: none;
+    border: 2px solid red !important;
+    background-color: #fff0f0;
 }
+
+input:invalid {
+    border: 2px solid red !important;
+}
+
+
+
+
 
 input,
 select,

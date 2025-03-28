@@ -1,4 +1,18 @@
+console.log("join.js script loaded");
+
 document.addEventListener("DOMContentLoaded", () => {
+
+    const form = document.getElementById("joinForm");
+    form.addEventListener("submit", function (e) {
+        if (!form.checkValidity()) {
+            e.preventDefault();
+            form.classList.add("submitted");
+            console.log("Form invalid — .submitted class added");
+        } else {
+            console.log("Form is valid — proceeding");
+        }
+    });
+
 
     const timestampField = document.getElementById("timestamp");
     if (timestampField) {
@@ -50,14 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    const form = document.getElementById("joinForm");
-    form.addEventListener("submit", function (e) {
-        form.classList.add("submitted");
 
-        if (!form.checkValidity()) {
-            e.preventDefault();
-        }
-    });
 });
 
 
