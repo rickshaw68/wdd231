@@ -28,6 +28,20 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
+.accent1-bg {
+    background-color: var(--accent1-color);  
+    color: #1e1e1e;                          
+    padding: 0.5rem;
+    border-radius: 5px;
+  }  
+  
+  .accent2-bg {
+    background-color: var(--accent2-color);  
+    color: #1e1e1e;                         
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+
 header {
     background-color: var(--secondary-color);
     color: white;
@@ -48,8 +62,11 @@ ul {
 }
 
 strong {
-    color: var(--accent1-color);
-}
+    background-color: var(--accent1-color);  /* Yellow */
+    color: var(--text-color);                /* Dark gray/black */
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+  }
 
 img {
     max-width: 100%;
@@ -57,3 +74,13 @@ img {
     border: 2px solid var(--accent2-color);
     border-radius: 6px;
 }
+
+.swatch {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    margin-left: 0.3rem;
+    font-weight: bold;
+    color: #1e1e1e; 
+  }
+  
