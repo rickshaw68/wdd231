@@ -1,4 +1,4 @@
-@media only screen and (min-width: 650px) {
+@media screen and (min-width: 641px) and (max-width: 1024px) {
     #hamburger-menu {
         display: none;
     }
@@ -22,11 +22,15 @@
     }
 
     .discover-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 1.5rem;
-        padding: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+        gap: 1rem;
     }
+
 
     .card {
         background-color: #fff;
@@ -87,4 +91,79 @@
     .author {
         text-align: right;
     }
+}
+
+@media screen and (min-width: 1025px) {
+    .discover-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8 .";
+        gap: 1.5rem;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    header span {
+        font-size: 2rem;
+    }
+
+    ul.menuLinks,
+    ul.menuLinks.open {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menuLinks a:hover {
+        background-color: #925a5a;
+    }
+
+    nav {
+        grid-template-rows: 1fr;
+    }
+
+    footer {
+        max-width: 1200px;
+        background-color: var(--primary-color);
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .chamber_footer,
+    .social-media,
+    .author {
+        flex: 1;
+        width: auto;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .chamber_footer {
+        text-align: left;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-media img {
+        width: auto;
+        height: 50px;
+    }
+
+    .author {
+        text-align: right;
+    }
+
 }
