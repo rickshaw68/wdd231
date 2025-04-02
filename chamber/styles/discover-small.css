@@ -1,0 +1,246 @@
+:root {
+    --primary-color: #004466;
+    --secondary-color: #0077b6;
+    --accent1-color: #b51522;
+    --accent2-color: #f4a261;
+    --background-color: #dfeaf5;
+    --text-color: #ffffff;
+    --text-color2: rgb(5, 5, 79);
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: Arial, sans-serif;
+    --nav-background-color: #80b1ba;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #ffb703;
+    /*--nav-hover-background-color: transparent;*/
+}
+
+body {
+    font-family: var(--heading-font);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+header img {
+    height: 60px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+header span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    flex: 1;
+    padding-left: 10px;
+    color: var(--text-color);
+}
+
+
+h1,
+p {
+    color: var(--text-color2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: var(--nav-background-color);
+    border-radius: 10px;
+}
+
+#hamburger-menu::before {
+    content: "☰";
+}
+
+#hamburger-menu {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+ul.menuLinks li a {
+    display: block;
+    padding: .75rem 2vw;
+    color: var(--text-color2);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+li.current-menu-item a {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+ul.menuLinks {
+
+    list-style-type: none;
+}
+
+
+/* CSS for open menu class */
+#hamburger-menu.open::before {
+    content: "❌";
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav.open {
+    grid-template-rows: 1fr;
+}
+
+.discover-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    background-color: var(--background-color);
+    border-left: 5px solid var(--accent2-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: var(--paragraph-font);
+}
+
+.card h2 {
+    font-family: var(--heading-font);
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.card figure {
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card address {
+    font-style: italic;
+    color: var(--text-color2);
+    font-size: 0.95rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: var(--text-color2);
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.card button {
+    align-self: flex-start;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 0.5rem 1 rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: var(--heading-font);
+    transition: background-color 0.2s ease;
+}
+
+.card button:hover {
+    background-color: var(--secondary-color);
+}
+
+.discover-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+  
+
+/* Visitor timestamp section */
+.visit-box {
+    background-color: #fef8e7;
+    border-left: 5px solid #ffb300;
+    color: #333;
+    font-weight: 500;
+    padding: 1rem 1.25rem;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.visit-box::before {
+    content: "👋 ";
+    font-size: 1.2rem;
+}
+
+
+/* Footer Section */
+
+footer {
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--primary-color);
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer p {
+    color: var(--text-color);
+}
+
+.chamber_footer,
+.social-media,
+.author {
+    flex: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social-media img {
+    width: auto;
+    height: 40px;
+}

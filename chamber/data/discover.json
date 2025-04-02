@@ -1,0 +1,52 @@
+{
+    "discover": [
+        {
+            "name": "Calgary Zoo",
+            "address": "210 St. Georges Drive NE, Calgary",
+            "image": "images/zoo.webp",
+            "description": "The zoo is operated by the Calgary Zoological Society, an independent not-for-profit organization that is Alberta's oldest registered charity.  The AZA-, WAZA-, and CAZA-accredited zoo was among the first in Canada to be accredited by all three associations. It is home to over 1,000 animals, excluding individual fish and insects, and 272 different species. The 120-acre zoo is organized by seven distinct zones: Destination Africa, Canadian Wilds, Penguin Plunge, Dorothy Harvie Botanical Gardens and ENMAX Conservatory, TransAlta Rainforest, Eurasia, and Prehistoric Park. The zoo is open every day except for Christmas Day. The zoo has also received international recognition as one of the top zoos in the world for conservation research."
+        },
+        {
+            "name": "Canada Olympic Park",
+            "address": "88 Canada Olympic Road SW, Calgary",
+            "image": "images/cop.webp",
+            "description": "Canada Olympic Park (COP), formerly known as Paskapoo Ski Hill, is a ski hill and multi-purpose training and competition facility located in Calgary, Alberta, Canada, owned and operated by WinSport. It is currently used both for high performance athletic training and for recreational purposes by the general public. Canada Olympic Park was one of the venues for the 1988 Winter Olympics, being the primary venue for ski jumping, bobsleigh, and luge."
+        },
+        {
+            "name": "Alberta Ballet",
+            "address": "1415 14th Ave NW, Calgary",
+            "image": "images/alberta-ballet.webp",
+            "description": "Alberta Ballet (also known as the Alberta Ballet Company) was founded by Muriel Taylor and Dr. Ruth Carse in 1958 and became a professional company in 1966.  The company is a resident company of both the Northern Alberta Jubilee Auditorium in Edmonton, Alberta and the Southern Alberta Jubilee Auditorium in Calgary, Alberta and performs its full season in both venues."
+        },
+        {
+            "name": "Calgary Flames",
+            "address": "555 Saddledome Rise SE, Calgary",
+            "image": "images/flames.webp",
+            "description": "The Calgary Flames are a professional ice hockey team based in Calgary. The Flames compete in the National Hockey League (NHL) as a member of the Pacific Division in the Western Conference. They are the third major professional ice hockey team to represent the city of Calgary.  The Flames are one of two NHL franchises based in Alberta, the other being the Edmonton Oilers. The cities' proximity has led to a rivalry known as the 'Battle of Alberta'.  The team was founded in 1972 in Atlanta as the Atlanta Flames before relocating to Calgary in 1980."
+        },
+        {
+            "name": "Glenbow Museum ",
+            "address": "130 9th Ave SE, Calgary",
+            "image": "images/glenbow-museum.webp",
+            "description": "The Glenbow Museum is an art and history regional museum in the city of Calgary, Alberta, Canada. The museum focuses on Western Canadian history and culture, including Indigenous perspectives. The Glenbow was established as a private non-profit foundation in 1955 by lawyer, businessman and philanthropist Eric Lafferty Harvie with materials from his personal collection."
+        },
+        {
+            "name": "Heritage Park",
+            "address": "1900 Heritage Dr. SW, Calgary",
+            "image": "images/heritage-park.webp",
+            "description": "Heritage Park Historical Village is a living history museum in Calgary, Alberta, Canada, on 127 acres (51 ha) of parkland on the banks of the Glenmore Reservoir, in the city's southwestern quadrant.   As one of Canada's largest living history museums, it is one of the city's most visited tourist attractions.[1] Exhibits span western Canadian history from the 1860s to the 1950s. Many of the buildings are historical and were transported to the park to be placed on display. Others are re-creations of actual buildings. Most of the structures are furnished and decorated with genuine artifacts. Staff dress in historic costume, and antique automobiles and horse-drawn vehicles service the site.  The park opened on July 1, 1964."
+        },
+        {
+            "name": "Calgary Stampede",
+            "address": "1410 Stampede Trail SE, Calgary",
+            "image": "images/stampede.webp",
+            "description": "The Calgary Stampede is an annual rodeo, exhibition, and festival held every July in Calgary, Alberta, Canada. The ten-day event, which bills itself as 'The Greatest Outdoor Show on Earth', attracts over one million visitors per year and features one of the world's largest rodeos, a parade, midway, stage shows, concerts, agricultural competitions, chuckwagon racing, and First Nations exhibitions. In 2008, the Calgary Stampede was inducted into the ProRodeo Hall of Fame."
+        },
+        {
+            "name": "Calgary Tower",
+            "address": "101 9th Ave SW, Calgary",
+            "image": "images/calgary_tower2.webp",
+            "description": "The Calgary Tower is a 190.8-metre (626 ft) free standing observation tower in the downtown core of Calgary, Alberta, Canada.  The tower was a founding member of the World Federation of Great Towers in 1989 along with the Eiffel Tower, among others.  It celebrated its 25th anniversary in 1993, a year in which it topped 500,000 visitors for the first time."
+        }
+    ]
+}

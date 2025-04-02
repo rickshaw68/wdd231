@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce | Rick Shaw</title>
+    <meta name="description" content="WDD 231 - Chamber Discover Page - Rick Shaw">
+    <meta name="author" content="Rick Shaw">
+    <meta property="og:title" content="WDD 231 Chamber Discover Page | Rick Shaw">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://rickshaw68.github.io/wdd231/chamber/images/calgary.webp">
+    <meta property="og:url" content="https://rickshaw68.github.io/wdd231/chamber/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/discover-small.css">
+    <link rel="stylesheet" href="styles/discover-larger.css">
+    <link rel="preload" as="image" href="images/calgary.webp" type="image/webp">
+
+    <link rel="preload" href="images/geniustech.webp" as="image">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/calgary_tower.webp" width="95" height="95" alt="Calgary Tower - Chamber of Commerce Logo">
+        <span>Calgary Chamber of Commerce</span>
+        <button id="hamburger-menu" aria-label="Open navigation menu" aria-expanded="false"></button>
+    </header>
+
+    <nav id="animateme">
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li class="current-menu-item"><a href="#" aria-current="page">Discover</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Discover Calgary</h1>
+
+        <section class="discover-container"></section>
+
+        <div id="visit-message" class="visit-box"></div>
+
+
+    </main>
+
+    <footer>
+        <div class="chamber_footer">
+            <p>Ampersand East</p>
+            <p>112 4 Ave SW Suite 410</p>
+            <p>Calgary, AB T2P 0H3</p>
+            <p>(403) 750-0400</p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="images/youtube.webp" width="50" height="50" alt="Visit our YouTube channel">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="images/twitter.webp" width="50" height="50" alt="Follow us on Twitter">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="images/linkedin.webp" width="53" height="50" alt="Connect with us on LinkedIn">
+            </a>
+        </div>
+        <div class="author">
+            <p>WDD231 Class Project</p>
+            <p>Rick Shaw</p>
+            <p>&copy; <span id="current-year" aria-live="polite"></span> Calgary Chamber of Commerce</p>
+            <p>Last Update: <span id="last-updated" aria-live="polite"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
