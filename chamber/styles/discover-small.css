@@ -175,6 +175,7 @@ nav.open {
     padding: 0.5rem 1rem;
     border-radius: 6px;
     font-weight: 500;
+    min-height: 44px;
     cursor: pointer;
     font-family: var(--heading-font);
     transition: background-color 0.2s ease;
