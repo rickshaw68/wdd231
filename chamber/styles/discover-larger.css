@@ -125,6 +125,24 @@
         grid-template-rows: 1fr;
     }
 
+    .card {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .card img:hover {
+        transform: scale(1.05) rotate(1deg);
+        box-shadow: 0 0 10px rgba(255, 200, 0, 0.5);
+        filter: brightness(1.1);
+        cursor: pointer;
+    }
+
     footer {
         max-width: 1200px;
         background-color: var(--primary-color);
