@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Barcelona",
+        "location": "Catalonia, Spain",
+        "description": "A starting point for our Trans-Atlantic cruise. I have to say it was well worth getting to Barcelona a few days before we boarded the ship. Barcelona will be one of my most memorable locations. One day we went on a hop on hop off bus to tour the city. We were able to see the Gaudi Bas\u00edlica de la Sagrada Fam\u00edlia. Hint! If you want to go inside, book your tour well in advance. While we were able to visit outside and take many photos of the incredible architecture, we didn't book in advance and were not able to go inside. We stayed at a small hotel in the Gothic Quarter, the oldest part of the city. It was all narrow alleyways that were like a maze but so much fun to walk around and explore. We also visited the Picasso museum which was really cool. Visit Barcelona, I would highly recommend it.",
+        "bestTime": "May to June and September to November",
+        "image": "images/familia.webp"
+    },
+    {
+        "name": "Santa Maria de Montserrat Abbey",
+        "location": "Montserrat, Spain",
+        "description": "An incredible place with an amazing history. This monastery was planning for its 1000 year anniversary in 2025. It is a working monastery and home of the famous Black Madonna (La Moreneta), a revered statue of the Virgin Mary and the patron saint of Catalonia. The monastery is also renowned for its boys' choir, Escolania de Montserrat. It has been razed by Napoleon in 1811 and 1812 and still survives to this day. A must visit if you can.",
+        "bestTime": "May to June and September to November",
+        "image": "images/montserrat.webp"
+    },
+    {
+        "name": "Lisbon",
+        "location": "Lisbon District, Portugal",
+        "description": "Lisbon is truly a cool place to visit. We stopped here for a day on our Trans-Atlantic cruise and made the best of it by taking a private tuk tuk tour of the old part of the city. We went up narrow streets to the highest part of the city, looking down on the port and Atlantic Ocean. The views were spectacular. There is so much history to discover in these old cities it is truly amazing. One common theme I was finding in these places are the narrow roads (in the old parts of the cities) and amazing architecture. If you don't want to pay for a tour, you can explore with just a short walk from the pier, or you can take the trolley up the steep streets to the top of the city.",
+        "bestTime": "Spring and Autumn",
+        "image": "images/lisbon.webp"
+    },
+    {
+        "name": "Óbidos",
+        "location": "Óbidos, Portugal",
+        "description": "We visited Óbidos while we were stopped in Portugal.  I admit, I was not to enthused about this little excursion, but WOW, I loved it.  Óbidos feels like stepping back in time. The town is encircled by well-preserved medieval walls, which you can walk along for stunning views of the surrounding countryside.  Óbidos is steeped in history, with roots dating back to Roman times. It was later fortified by the Moors, and liberated with the help of the Knights Templar and eventually became a favorite of Portuguese queens, earning it the nickname Town of the Queens.  Amazing to be in a place with such history and to be able to walk along the castle walls where at one time wars were fought.",
+        "bestTime": "Spring and Autumn",
+        "image": "images/obidos.webp"
+    },
+    {
+        "name": "Panama Canal",
+        "location": "Panama",
+        "description": "We have sailed through the Panama Canal twice now, and both times were really neat. The first time was on a Disney cruise where we went from the Atlantic side to the Pacific side. What I really loved about this particular transit was that when we got to the locks on the Pacific Ocean side near Panama City, we went past what looked like a grandstand viewing area where lots of school buses were parked. As we passed by there was an eruption of cheering and flashes coming from the grandstand. Looking down at the front of the ship we saw the Disney characters (Mickey, Minnie, Goofy, Donald Duck, and others) all out waving to the kids. It was really neat to see that the Disney ship would do this for the kids. I found out later that the ship went through the canal two times a year, and the local schools take the kids out specifically to see the ship and characters as they pass through.",
+        "bestTime": "December - April",
+        "image": "images/panama-canal.webp"
+    },
+    {
+        "name": "Pago Pago",
+        "location": "American Samoa",
+        "description": "Pago Pago was our first stop after five days at sea on our Trans-Pacific cruise. It was amazing to come up to the top deck of the ship and see the steep mountainous terrain, not to mention the first sight of land in five days. We didn't do any organized tours during our day here but just went exploring on our own, as we often do on our stops. The people were very friendly, and I had some of the best and freshest fish & chips I have ever had. We really enjoyed Pago Pago and were thrilled to watch the Polynesian dancing and farewell that the local school students performed for us as we departed at the end of the day. This was also the first time a Disney ship had ever visited, as we were on the inaugural South Pacific cruise for Disney as we headed for Australia.",
+        "bestTime": "June to September",
+        "image": "images/pago-pago.webp"
+    },
+    {
+        "name": "Santiago",
+        "location": "Santiago Metropolitan Region, Chile",
+        "description": "We flew in to Santiago for the beginning of our South America (West Coast) cruise where we would be departing the next day on our way to Florida.  We loved spending the day in Santiago, and eating local cuisine.  We were lucky enough to have a friend arrange for his cousin to pick us up at the airport and to our surprise and delight, take us on a tour around the city before he drove us to the port city where we would meet our ship the following day.  We took a gondola ride up a to a mountain top church where we could see the entire city below.  It is a really beautiful place at the foot of the rugged Andes Mountains.",
+        "bestTime": "Spring and Fall",
+        "image": "images/santiago.webp"
+    },
+    {
+        "name": "Honolulu",
+        "location": "Hawaii, USA",
+        "description": "One of my favorite cruises was the repositioning cruise from Honolulu to Vancouver.  We spent the first 6 days cruising around Hawaii before the 5 days at sea crossing the Eastern Pacific to British Columbia.  We spent two days (overnight on the ship) in Honolulu where we toured places like the Punchbowl Cemetery, North Shore, Pearl Harbour, USS Missouri, USS Arizona Memorial, surfing lessons on Waikiki Beach,  snorkeling with giant green turtles in Maui, midnight cruise past erupting Mount Kīlauea, and a hike through a volcanic crater in Volcanoes National Park near Hilo.",
+        "bestTime": "January to December",
+        "image": "images/hawaii.webp"
+    },
+    {
+        "name": "Sydney",
+        "location": "New South Wales, Australia",
+        "description": "We didn't spend much time in Sydney unfortunately as this was the final destination of our Trans-Pacific cruise.  We got up early to experience the ships entrance into the Sydney harbour for the first time ever (for Disney).  The lights were amazing coming into the harbour and we got to see the Sydney Opera House.  Before we left on this cruise, the ship had to undergo modifications to its mast as we barely made it under the harbour bridge seen in the photo.  This was an amazing trip!",
+        "bestTime": "January to December",
+        "image": "images/sydney.webp"
+    },
+    {
+        "name": "Ponta Delgada",
+        "location": "Azores, Portugal",
+        "description": "We booked a private tour around this small island and it was well worth it.  To get a personalized tour by a local and be able to get places where the big buses don't go was awesome.  The island was beautiful.  We were taken to a small town inside the crater in the photo where we met some very friendly ducks that followed us around as we walked about.  We saw an old whaling village, and just some amazing scenic views.  It was a very pleasant day for sure and well worth the cost of the tour.",
+        "bestTime": "January to December",
+        "image": "images/azores.webp"
+    }
+]

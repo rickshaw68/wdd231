@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Banff National Park - Tunnel Mountain",
+      "location": "Alberta, Canada",
+      "description": "A stunning mountain destination with turquoise lakes and hiking trails. Tunnel Mountain campgrounds and RV parks are very well kept and constantly serviced. They ensure that noise limits are in place and have now banned alcohol consumption during the long weekends to deter the party-goers, so beware if you are a drinker.",
+      "bestTime": "May to October",
+      "image": "images/banff.webp"
+    },
+    {
+      "name": "Banff National Park - Lake Louise",
+      "location": "Alberta, Canada",
+      "description": "A perfect base camp to visit the many amazing places around. Sadly Lake Louise has become over-touristy and you are likely to not get parking at the lake and will need to take a bus to visit and deal with the crowds. The most amazing lake in the area, Moraine Lake, is also no longer accessible by vehicle, but buses are available.",
+      "bestTime": "June to September",
+      "image": "images/lake-louise.webp"
+    },
+    {
+      "name": "Hoover Dam",
+      "location": "Nevada, USA",
+      "description": "A truly modern marvel. It was neat to see this place, however sad to see how much the water has gone down over the years. I would recommend at least one visit here to check it off the bucket list, but if you are not used to the extreme heat of the Nevada summers, go during the cooler months.",
+      "bestTime": "October - April",
+      "image": "images/hoover-dam.webp"
+    },
+    {
+      "name": "Las Vegas",
+      "location": "Nevada, USA",
+      "description": "Everyone has seen all of the photos of the casinos along the main strip, so we ventured out into the actual city. This photo is of the LDS Las Vegas Temple at night—truly stunning! As I visited the strip, after first glance, everything seemed very manufactured. Once you go through the doors of the cool outside views, it was all the same—smoky casinos and overpriced everything! If gambling is your thing, you will have no shortage of options.",
+      "bestTime": "October - April",
+      "image": "images/vegas.webp"
+    },
+    {
+      "name": "Santa Clara",
+      "location": "California, USA",
+      "description": "Although we went to Santa Clara for a 49ers game (wife's team, not mine), it was an enjoyable weekend and nice place to visit. We went in early October where the days were nice, but got quite cool in the evenings. I would recommend a visit if you are a 49ers fan. I wore my Cowboys jersey that day (that's who the Niners were playing), and the fans were very welcoming. Ticket prices were outrageous, but you have to experience an NFL game at least once in person if you're a fan.",
+      "bestTime": "April - November",
+      "image": "images/santa-clara.webp"
+    },
+    {
+      "name": "Fort Steele",
+      "location": "British Columbia, Canada",
+      "description": "This is our favorite yearly camping road trip. If you're looking for a nice, relaxing, and peaceful time, this is the place to go. Located in the Kootenay mountains, there is no shortage of things to do: go to a different lake every day, hike, bike, or just sit and relax by the pool at the campground. Cranbrook is close by for shopping, restaurants, or a movie night.",
+      "bestTime": "June to September",
+      "image": "images/cranbrook.webp"
+    },
+    {
+      "name": "Waterton National Park",
+      "location": "Alberta, Canada",
+      "description": "We really enjoy Waterton and try to get there at least once a year for camping (RVing). Waterton borders Glacier National Park on the US side of the lake. It's touristy, which can get annoying at times, but it really is a beautiful place. There is a little downtown in the village with some really good places to eat—one of our favorites is Waffleton! Things to do include hiking, boat tours to the US border, bike rentals, and of course the glacier-fed Waterton Lake.",
+      "bestTime": "May to September",
+      "image": "images/waterton.webp"
+    },
+    {
+      "name": "Lake Tahoe",
+      "location": "Nevada, USA",
+      "description": "Lake Tahoe is stunning. It is truly a year-round destination depending on what you like doing. Boating, camping, hiking, and biking in the summer, and skiing in the winter. I've only been there a couple of times, but whenever we go to Northern Nevada, we like to stay up at Lake Tahoe as it really is beautiful.",
+      "bestTime": "January to December",
+      "image": "images/lake-tahoe.webp"
+    }
+  ]
+  

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rickventures Travel Inquiry Form</title>
+  <meta name="description" content="Submit a travel inquiry to Rickventures for your next adventure." />
+  <meta name="author" content="Rick Shaw" />
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" href="styles/larger.css" />
+  <link rel="icon" href="favicon.ico" />
+  <script src="scripts/form.js" defer></script>
+  <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-title">
+      <h1>Rickventures</h1>
+      <button id="menu" aria-label="Menu button">☰</button>
+    </div>
+  </header>
+
+  <nav id="animateme">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="road.html">Road Trips</a></li>
+      <li><a href="cruise.html">Cruises</a></li>
+      <li class="current-menu-item"><a href="#" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="form-section">
+      <h2>Plan Your Adventure</h2>
+      <form id="travel-form" action="thankyou.html" method="get">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="trip-type">Trip Type:</label>
+        <select id="trip-type" name="tripType" required>
+          <option value="">--Select a Trip Type--</option>
+          <option value="road">Road Trip</option>
+          <option value="cruise">Cruise</option>
+          <option value="international">International</option>
+        </select>
+
+        <label for="details">Tell us more about your plans:</label>
+        <textarea id="details" name="details" rows="5" placeholder="Where do you want to go? When? With who?"
+          required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Rick Shaw 🌍 Calgary, Alberta, Canada</p>
+    <div class="social-media">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="images/facebook.webp" width="50" height="50" alt="Visit my Facebook page" />
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="images/twitter.webp" width="50" height="50" alt="Follow us on Twitter" />
+      </a>
+      <a href="https://www.linkedin.com" target="_blank">
+        <img src="images/linkedin.webp" width="50" height="50" alt="Connect with us on LinkedIn" />
+      </a>
+    </div>
+    <div class="author">
+      <p>WDD231 Class Final Project</p>
+      <p>Last Update: <span id="current-year"></span></p>
+    </div>
+  </footer>
+</body>
+
+</html>

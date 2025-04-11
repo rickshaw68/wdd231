@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rickventures Home Page | Rick Shaw</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development - Rick Shaw | Final Project - Rickventures" />
+    <meta name="author" content="Rick Shaw" />
+    <meta property="og:title" content="Rickventures Home Page | Rick Shaw" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://rickshaw68.github.io/wdd231/images/calgary.webp" />
+    <meta property="og:url" content="https://rickshaw68.github.io/wdd231/travel-blog/index.html" />
+    <link rel="icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet" />
+
+    <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-title">
+          <h1>Rickventures</h1>
+          <button id="menu" aria-label="Menu button">☰</button>
+        </div>
+      </header>
+      
+      <nav id="animateme">
+        <ul class="nav-links">
+          <li class="current-menu-item"><a href="#" aria-current="page">Home</a></li>
+          <li><a href="road.html">Road Trips</a></li>
+          <li><a href="cruise.html">Cruises</a></li>
+          <li><a href="form.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+
+    <main>
+        <section class="hero">
+            <img src="images/hero.webp" alt="Cruise Ship Anchored in Maui" width="1600" height="800" loading="lazy">
+            <div class="hero-text">
+                <h2>Explore the World with Rickventures</h2>
+                <p>Your journey starts here</p>
+                <a href="#destinations" class="cta-button">Explore Destinations</a>
+            </div>
+        </section>
+
+        <section id="destinations" class="featured-destinations">
+            <h2>Featured Destinations</h2>
+            <div id="destination-cards" class="featured-cards">
+
+                <!-- Cards go here -->
+            </div>
+        </section>
+
+        <section class="travel-search">
+            <h2>Search for Flight Status and Destination Weather</h2>
+        </section>
+
+        <section class="flight-lookup">
+            <h2>Check a Flight</h2>
+            <form id="flight-form">
+                <label for="flight-number">Flight IATA Code (e.g., AC302):</label>
+                <input type="text" id="flight-number" name="flight-number" required>
+                <button type="submit">Search</button>
+            </form>
+            <div id="flight-results"></div>
+        </section>
+
+        <section class="tip-weather">
+            <h2>Travel Tip & Weather</h2>
+            <p id="travel-tip">Loading tip...</p>
+            <div id="weather-city" class="weather-city-name"></div>
+            <div id="weather-widget">Weather widget goes here</div>  
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Rick Shaw 🌍 Calgary, Alberta, Canada</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.webp" width="50" height="50" alt="Visit my Facebook page" />
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="images/twitter.webp" width="50" height="50" alt="Follow us on Twitter" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="images/linkedin.webp" width="50" height="50" alt="Connect with us on LinkedIn" />
+            </a>
+        </div>
+        <div class="author">
+            <p>WDD231 Class Final Project</p>
+            <p>Last Update: <span id="current-year"></span></p>
+        </div>
+    </footer>
+
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-box">
+            <button id="close-modal" aria-label="Close modal">✕</button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

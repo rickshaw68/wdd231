@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You | Rickventures</title>
+    <meta name="description" content="Thank you for submitting your travel inquiry to Rickventures." />
+    <meta name="author" content="Rick Shaw" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="icon" href="favicon.ico" />
+    <!--Loads the thankyou script that pulls from localStorage -->
+    <script src="scripts/thankyou.js" defer></script>
+    <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-title">
+            <h1>Rickventures</h1>
+            <button id="menu" aria-label="Menu button">☰</button>
+        </div>
+    </header>
+
+    <nav id="animateme">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="road.html">Road Trips</a></li>
+            <li><a href="cruise.html">Cruises</a></li>
+            <li class="current-menu-item"><a href="#" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="thankyou-container">
+            <h2>Thank you for contacting us!</h2>
+            <p>Your travel inquiry has been received. Here's what you submitted:</p>
+
+            <!-- thank you -->
+            <div class="confirmation-details">
+                <p><strong>Name:</strong> <span id="display-name">...</span></p>
+                <p><strong>Email:</strong> <span id="display-email">...</span></p>
+                <p><strong>Trip Type:</strong> <span id="display-trip">...</span></p>
+                <p><strong>Details:</strong> <span id="display-details">...</span></p>
+            </div>
+
+            <a href="index.html">
+                <button class="back-home">Back to Homepage</button>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Rick Shaw 🌍 Calgary, Alberta, Canada</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.webp" width="50" height="50" alt="Visit my Facebook page" />
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="images/twitter.webp" width="50" height="50" alt="Follow us on Twitter" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="images/linkedin.webp" width="50" height="50" alt="Connect with us on LinkedIn" />
+            </a>
+        </div>
+        <div class="author">
+            <p>WDD231 Class Final Project</p>
+            <p>Last Update: <span id="last-updated" aria-live="polite"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
