@@ -37,6 +37,12 @@
     background-color: transparent;
   }
 
+  .current-menu-item a {
+    font-weight: bold;
+    text-decoration: underline !important;
+    color: var(--accent2-color);
+  }
+
   .hero {
     position: relative;
     overflow: hidden;

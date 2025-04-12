@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupFlightLookup();
     loadTravelTip();
 
-    // determine which script to load
+    // determine which cards to show
     const path = window.location.pathname;
 
     if (path.includes('road.html')) {
